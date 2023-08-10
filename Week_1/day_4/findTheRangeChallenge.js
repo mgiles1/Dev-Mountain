@@ -12,5 +12,4 @@ for(let i = 0; i < arr.length; i++) {
         highest = arr[i]
     }
 }
-
     console.log(`inside the array ${arr}, the lowest value is ${lowest} and the highest value is ${highest}`)
