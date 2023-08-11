@@ -1,0 +1,159 @@
+header {
+    background-color: rgb(141, 252, 200);
+    height: 1em;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 1em;
+}
+
+.subhead {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header1 {
+    border: dashed 1px black;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#purple {
+    display: inline-block;
+    background-color: purple;
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    border: solid 5px red;
+    border-top: solid 3px red;
+    
+
+}
+
+#blue {
+    display: inline-block;
+    background-color: blue;
+    border: solid 1.5px black;
+    width: 100px;
+    height: 106px;
+    margin-left: 20px;
+    box-shadow: 7px 7px 10px black;
+}
+
+#pink {
+    display: inline-block;
+    background-color: pink;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+h2 {
+    border: dashed 1px black;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.circles {
+    border: solid 2px black;
+    border-radius: 100px;
+    background-color: white;
+
+}
+
+#topcirc {
+    width: 100px;
+    height: 100px; 
+    margin-left: 50px;
+}
+
+#midcirc {
+    width: 150px;
+    height: 150px; 
+    margin-left: 25px;
+}
+
+#botcirc {
+    width: 200px;
+    height: 200px; 
+    margin-left: 5px;
+}
+
+.innercirc {
+    border: solid black;
+    background-color: black;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+}
+
+#eyeL {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+#eyeR {
+    display: inline-block;
+    margin-top: 25px;
+    ;
+}
+
+#one, #two, #three {
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+#carrot {
+    background-color: orange;
+    width: 30px;
+    height: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.circfoot {
+    border: solid 1px black;
+    border-radius: 100px;
+}
+
+.squfoot {
+    border: solid 1px black;
+}
+
+#s-one {
+   background-color: lightyellow;
+    width: 225px;
+    height: 225px;
+}
+
+#circ-1 {
+    background-color: green;
+     width: 175px;
+     height: 175px;
+ }
+
+ #s-two {
+    background-color: red;
+     width: 100px;
+     height: 100px;
+     margin: 35px;
+ }
+
+ #circ-2 {
+    background-color: blue;
+     width: 75px;
+     height: 75px;
+
+ }
+
+ #fish {
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+ }
