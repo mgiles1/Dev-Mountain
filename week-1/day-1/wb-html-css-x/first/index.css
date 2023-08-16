@@ -1,0 +1,24 @@
+header {
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 150px;
+}
+
+aside {
+    background-color: rgb(197, 197, 197);
+    width: 125px;
+    min-height: calc(100vh - 10px);
+}
+
+#left {
+float: left;
+}
+
+#right {
+float: right;
+}
+
+#bottom {
+    background-color: black;
+    height: 100px;
+    
+}

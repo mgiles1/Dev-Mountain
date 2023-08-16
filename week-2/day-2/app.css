@@ -1,0 +1,143 @@
+.container {
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+.boxes {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+#relative-box {
+    /* relative is positioned relative to the document flow */
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+}
+
+#fixed-box {
+    /* The fixed element remains in that portion of the viewport
+    regardless of scroll. */
+    position: fixed;
+    left: 100px;
+    top: 500px;
+    z-index: -1;
+}
+
+#absolute-box {
+    /* Relative is positioned relative to their nearest positioned ancestor. */
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    /* z-index is like layers. The higher the number
+    the more it will be in the front of the page */
+    z-index: -1;
+}
+
+#container-sticky {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+#sticky-box {
+    /* sticky toggles between fixed and relative
+    based on scroll position. */
+    position: sticky;
+    top: 10px;
+}
+
+#toppest {
+    z-index: 1000;
+}
+
+.inline-boxes {
+    display: inline;
+}
+
+.inline-block-boxes {
+    display: inline-block;
+}
+
+#flex {
+    display: flex;
+}
+
+#flex-column {
+    display: flex;
+    flex-direction: column
+}
+
+#flex-wrap {
+    border: 2px solid black;
+    display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+#flex-space {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around */
+    /* justify-content: space-between */
+    justify-content: space-evenly
+}
+
+#flex-centering {
+    height: 600px;
+    width: 95vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    /* flex-direction: row;  */
+     /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; ==== with no styling, this is more visible*/
+    /* align-items: baseline; */
+}
+
+.overflow {
+    border: 1px solid black;
+    height: 200px;
+    width: 60vw;
+}
+#overflow-visible {
+    overflow: visible;
+}
+
+#overflow-hidden {
+    height: 200px;
+    width: 60vx;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#overflow-scroll {
+    overflow: scroll;
+}
+
+#shadow {
+    box-shadow: 10px 30px 10px 1px black;
+}
+
+#shadow:hover {
+    background-color: rgb(248, 154, 170);
+    cursor: pointer;
+    /* box-shadow: 3px 3px 30px 30px black; */
+}

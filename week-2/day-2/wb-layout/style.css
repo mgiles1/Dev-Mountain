@@ -1,0 +1,10 @@
+#logo {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.direct {
+    display: flex;
+    flex-direction: row;
+}

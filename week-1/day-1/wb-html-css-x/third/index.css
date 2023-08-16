@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(187, 183, 183);
+    height: 100px;
+    padding: 20px;
+}
+
+#top_left {
+    background-color: rgb(40, 125, 221);
+    height: 100px;
+    width: 100px;
+    
+}
+
+section {
+    height: 400px;  
+}
+
+p {
+    font-family: Arial;
+    font-size: 35px;
+    padding: 125px;
+}
+
+#first_box {
+    background-color: rgb(31, 105, 165);
+}
+
+#second_box {
+    background-color: rgb(22, 173, 141);
+}
+
+#third_box {
+    background-color: rgb(163, 192, 112);
+}
+
+#fourth_box {
+    background-color: rgb(216, 216, 9);
+}
+.boxes {
+    height: 150px;
+}
