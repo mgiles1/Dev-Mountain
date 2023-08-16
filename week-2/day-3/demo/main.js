@@ -25,7 +25,12 @@ const addName = (evt) => {
     let listItem = document.createElement(`li`)
     listItem.textContent = input.value
     list.appendChild(listItem)
+    listItem.addEventListener(`click`, deleteName)
     input.value = ``
+}
+
+const deleteName = (evt) => {
+    evt.target.remove()
 }
 
 
