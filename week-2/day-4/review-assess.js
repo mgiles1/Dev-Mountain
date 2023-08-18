@@ -29,7 +29,6 @@ arr.forEach((foodObj) => {
         foodObj.cheap = true
     }
 })
-
 // console.log(arr)
 
 
