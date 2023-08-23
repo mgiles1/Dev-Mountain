@@ -1,0 +1,15 @@
+{% extends 'base.html.njk' %}
+
+{%block title%}Welcome Home{% endblock title%}
+
+{% block body %}
+        <h1>Hello {{ name }}</h1>
+        <ul>
+            Your favorite things are...
+            {% for thing in favoriteThings %}
+                <li>{{thing}}</li>
+            {% endfor %}
+        </ul>
+        
+        <a href="/form">Click here to go to form</a>
+{% endblock body %}
