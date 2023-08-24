@@ -40,7 +40,7 @@ let user5 = new User(`Bruce`, `Wayne`, `bwyane5`, `p@ssword5`, `eamail5@email.co
 // }
 
 // console.log(userArr())
-
+let subArray = []
 
 const subscribeByName = (arr) => {
     arr.forEach(user => {
@@ -48,8 +48,10 @@ const subscribeByName = (arr) => {
         firstName = firstName.toLowerCase();
         if(firstName[0] === `s` || firstName.startsWith(`m`) || firstName[0] === `l`){
             user.subscribe()
+            subArray.push(user.subscribe())
+            return subArray
         }
-    });
+    });  
 }
-subscribeByName(users)
-console.log(users)
+
+console.log(subscribeByName)
