@@ -32,7 +32,7 @@ export default function App() {
   const friendInfo = friends.map((friend) => {
     return (
       <div key={`${friend.name}`}>
-        <img width="100px" src={friend.picture} alt={friend.name} />
+        <img width="300px" src={friend.picture} alt={friend.name} />
         <span>{friend.name}</span>
       </div>
     );
